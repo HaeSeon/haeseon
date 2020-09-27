@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>HaeseonLee</title>
+    <script src="https://kit.fontawesome.com/8048a0bb0e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="fas fa-battery-full"></i>
+        <a href="">Haeseon Lee</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a>Home</a></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Project</a></li>
+      </ul>
+      <ul class="navbar_icons">
+        <li>
+          <a href="https://github.com/HaeSeon"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/haesun_2/"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+      <a href="#" class="navbar_toggleButton">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+
+    <!-- home -->
+    <section class="home_container">
+      <div class="home_banner">
+        <h2 class="name">Developer HaeSeon Lee</h2>
+        <div class="blinking">
+          <p class="subname">Hi I'm HaeSeon Lee. This is my web portfolio</p>
+        </div>
+        <span class="banner_line"></span>
+      </div>
+    </section>
+
+    <!-- profile -->
+    <section class="profile_container">
+      <div class="profile_inner">
+        <span class="profile_aside">
+          <img id="profile_image" src="./img/profile.png" />
+          <span>
+            1996. 5. 1<br />
+            gildogi@naver.com<br />
+            거주지 : 서울<br
+          /></span>
+        </span>
+        <div class="profile_content">
+          <div class="profile_overlay">
+            <h2 id="title">Education</h2>
+            <ul>
+              <li id="profile_list">
+                <i id="ex" class="fas fa-check"></i>&nbsp&nbsp상명대학교 서울캠퍼스 컴퓨터과학과
+                4학년 재학 (2020.09) 2021.02 졸업 예정 <strong id="grade">3.65</strong>/4.5
+                <br />
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp융합전자공학과 복수전공
+              </li>
+              <br />
+              <li id="profile_list">
+                <i id="ex" class="fas fa-check"></i>&nbsp&nbsp<small
+                  >한가람 고등학교(서울 목동) 졸업 (2015.02)</small
+                >
+              </li>
+            </ul>
+            <h2 id="title">Like</h2>
+            <ul>
+              <li id="profile_list">
+                <i id="ex" class="fas fa-check"></i>&nbsp&nbsp 노래, 피아노 등 음악
+              </li>
+              <br />
+              <li id="profile_list">
+                <i id="ex" class="fas fa-check"></i>&nbsp&nbsp여행 다니기 및 사진, 영상 편집
+              </li>
+              <br />
+              <li id="profile_list"><i id="ex" class="fas fa-check"></i>&nbsp&nbsp와인 마시기</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 프로젝트 목록 -->
+    <section class="project_list"></section>
+  </body>
+  <script src="./main.js"></script>
+</html>

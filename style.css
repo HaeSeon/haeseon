@@ -1,0 +1,279 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: #ffcccc;
+  --accent-color: palevioletred;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: "MuseoModerno", cursive;
+}
+
+.time:hover {
+  animation-play-state: paused;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--accent-color);
+  padding: 8px 12px;
+}
+
+.navbar_logo {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar_menu li {
+  padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+  background-color: #ffcccc;
+  border-radius: 4px;
+}
+
+.navbar_icons {
+  color: var(--text-color);
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar_icons li {
+  padding: 8px 12px;
+}
+
+.navbar_toggleButton {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--background-color);
+}
+
+.home_container {
+  margin: 0;
+  display: inline-block;
+  background-image: url(./img/bg2.jpg);
+  background-size: cover;
+}
+.home_banner {
+  position: relative;
+  display: inline-block;
+  margin: 12%;
+}
+
+.name {
+  margin: 0%;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: inline-block;
+
+  font-size: 6vw;
+  font-family: days-Later;
+  color: lightcoral;
+  text-shadow: -2px -2px 4px black;
+}
+
+.blinking {
+  display: inline-block;
+}
+
+.subname {
+  margin-left: 25%;
+  font-size: 2.47vw;
+  color: black;
+  border-right: 4px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 10s steps(27) forwards, blink-create 0.8s step-end infinite;
+  animation-iteration-count: infinite;
+}
+
+.home_banner span.banner_line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: none;
+  width: 100%;
+  color: #fff;
+}
+
+.home_banner::before,
+.home_banner::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  height: 95%;
+  transform: translate(-50%, -50%);
+  transition: all 0.8s;
+}
+
+.home_banner::before {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid#fff;
+  width: 0;
+}
+
+.home_banner::after {
+  border-left: 2px solid #fff;
+  border-right: 2px solid#fff;
+  height: 0;
+}
+
+.home_banner:hover span.banner_line {
+  display: block;
+}
+.home_banner:hover::before {
+  width: 95%;
+}
+.home_banner:hover::after {
+  height: 95%;
+}
+
+@keyframes blink-create {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  30% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  90% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+.profile_container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-style: normal;
+}
+
+.profile_inner {
+  background-image: url(./img/profile_bg.jpg);
+  background-size: cover;
+  padding: 0 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile_aside {
+  opacity: 0;
+  margin: 5%;
+  text-align: end;
+  margin-top: 10%;
+  transition: all 1s;
+}
+#profile_image {
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.profile_content {
+  width: 80%;
+  margin: 5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 3%;
+  opacity: 0;
+  transition: all 1s;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+.profile_inner:hover .profile_content {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.profile_inner:hover .profile_aside {
+  opacity: 1;
+  transition: all 1s;
+}
+
+#title {
+  margin: 0;
+}
+
+#grade {
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#profile_list {
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar_menu {
+    display: none;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar_menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar_toggleButton {
+    display: block;
+  }
+
+  .navbar_menu.active,
+  .navbar_icons.active {
+    display: flex;
+  }
+}
