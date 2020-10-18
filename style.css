@@ -10,14 +10,6 @@ body {
   font-family: "MuseoModerno", cursive;
 }
 
-.time:hover {
-  animation-play-state: paused;
-}
-a {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -26,6 +18,10 @@ a {
   padding: 8px 12px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 .navbar_logo {
   font-size: 24px;
   color: var(--text-color);
@@ -242,6 +238,121 @@ ul {
 
 #profile_list {
   margin-left: 5%;
+}
+
+.skill_container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-style: normal;
+}
+
+.skill_inner {
+  margin: 0;
+  padding: 50px;
+  background-color: #c6798b;
+}
+
+.skill_content {
+  margin: 5%;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill_img {
+  width: 110px;
+  height: 110px;
+  margin: 5%;
+  transition: 0.8s;
+  display: inline-block;
+}
+
+.c {
+  background-image: url(./img/c.svg);
+  background-size: cover;
+  width: 100px;
+}
+.kotlin {
+  background-image: url(./img/kotlin.svg);
+  background-size: cover;
+  width: 110px;
+}
+.python {
+  background-image: url(./img/python.svg);
+  background-size: cover;
+}
+.js {
+  background-image: url(./img/javascript.svg);
+  background-size: cover;
+}
+.html {
+  background-image: url(./img/html-5.svg);
+  background-size: cover;
+  width: 80px;
+}
+.css {
+  background-image: url(./img/css-3.svg);
+  background-size: cover;
+  width: 80px;
+}
+.ubuntu {
+  background-image: url(./img/ubuntu.svg);
+  background-size: cover;
+}
+.firebase {
+  background-image: url(./img/firebase.svg);
+  background-size: cover;
+  width: 80px;
+}
+.android {
+  background-image: url(./img/android-icon.svg);
+  background-size: cover;
+  width: 95px;
+}
+
+.js:hover {
+  background-image: url(./img/javascript2.jpg);
+  background-size: cover;
+}
+
+.skill_img:hover {
+  border-radius: 10px;
+  background-color: #f0f4f5;
+}
+
+#skill_title {
+  color: #f0f4f5;
+  margin: 0;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.project_container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-style: normal;
+}
+
+.project_inner {
+  margin: 0;
+  padding: 50px;
+  background-color: #ffcccc;
+}
+
+.project_content {
+  margin: 5%;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 700px) {
