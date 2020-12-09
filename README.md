@@ -1,6 +1,7 @@
 ### Hi there 👋
 I'm HaeSeon Lee.
 
+![HaeSeon's github stats](https://github-readme-stats.vercel.app/api?username=HaeSeon&show_icons=true)
 
 <!--
 **HaeSeon/haeseon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
