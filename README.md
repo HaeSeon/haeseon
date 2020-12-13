@@ -1,6 +1,9 @@
 ### Hi there 👋
 I'm HaeSeon Lee.
 
+develop bolg : https://haesunnysideof.tistory.com/
+
+
 ![HaeSeon's github stats](https://github-readme-stats.vercel.app/api?username=HaeSeon&show_icons=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HaeSeon&layout=compact)](https://github.com/HaeSeon/github-readme-stats)
