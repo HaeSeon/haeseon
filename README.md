@@ -1,7 +1,7 @@
 ### Hi there 👋
 I'm HaeSeon Lee.
 
-develop bolg : https://haesunnysideof.tistory.com/
+**develop bolg** : https://haesunnysideof.tistory.com/
 
 
 ![HaeSeon's github stats](https://github-readme-stats.vercel.app/api?username=HaeSeon&show_icons=true)
