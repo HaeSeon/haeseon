@@ -3,6 +3,11 @@ I'm HaeSeon Lee.
 
 **Experience**
 1. NCsoft intern 2020.12 ~ 
+    * typescript
+    * vue
+    * nodejs
+    * NLP
+
 
 **develop bolg** : https://haesunnysideof.tistory.com/
 
