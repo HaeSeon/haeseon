@@ -8,6 +8,9 @@ I'm HaeSeon Lee.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HaeSeon&layout=compact)](https://github.com/HaeSeon/github-readme-stats)
 
+**Experience**
+1. NCsoft intern 2020.12 ~ 
+
 <!--
 **HaeSeon/haeseon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
