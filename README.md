@@ -2,11 +2,12 @@
 I'm HaeSeon Lee.
 
 **Experience**
-    * typescript
-    * vue
-    * nodejs
-    * NLP
-    
+ * typescript
+ * node.js
+ * aws
+ * vue
+ * react
+ * NLP
 
 **develop bolg** : https://haesunnysideof.tistory.com/
 
