@@ -2,14 +2,14 @@
 I'm HaeSeon Lee.
 
 **Experience**
- * typescript
- * node.js
- * aws
- * vue
- * react
+ * Typescript, Python
+ * Node.js, Nest.js, Flask, Django
+ * AWS, Git, Docker
+ * MySQL, MongoDB
+ * React
  * NLP
 
-**develop bolg** : https://haesunnysideof.tistory.com/
+**develop bolg** : https://haesummy.tistory.com
 
 
 ![HaeSeon's github stats](https://github-readme-stats.vercel.app/api?username=HaeSeon&show_icons=true)
