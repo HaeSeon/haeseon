@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm HaeSeon Lee.
+I'm Backend Developer HaeSeon Lee.
 
 **Experience**
  * Typescript, Python
