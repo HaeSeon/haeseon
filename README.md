@@ -10,6 +10,7 @@ I'm Backend Developer HaeSeon Lee.
  * NLP
 
 **develop bolg** : https://haesummy.tistory.com
+**Just Web** : https://haesummy.com
 
 
 
